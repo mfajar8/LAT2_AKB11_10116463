@@ -3,4 +3,12 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="lightblue">#40B4E7</color>
+    <color name="shadowheader">#d1d2d4</color>
+    <color name="separator">#939597</color>
+    <color name="fonttitle">#D81B60</color>
+    <color name="fontdesc">#808284</color>
+    <color name="background">#ffffff</color>
+    <color name="bg_invite">#f1f1f2</color>
+    <color name="black">#000000</color>
 </resources>

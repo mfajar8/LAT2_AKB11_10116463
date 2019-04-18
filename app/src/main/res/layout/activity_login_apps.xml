@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginAppsActivity"
+    android:orientation="vertical"
+    android:background="@color/lightblue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logoawal"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_welcome_logo"/>
+
+        <EditText
+            android:id="@+id/edt_Uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:hint="@string/username"
+            android:textColor="@color/background"
+            android:textColorHint="@color/background"
+            android:backgroundTint="@color/background"/>
+
+        <EditText
+            android:id="@+id/edt_Pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:textColor="@color/background"
+            android:textColorHint="@color/background"
+            android:backgroundTint="@color/background"/>
+
+        <Button
+            android:id="@+id/btn_Login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/login"
+            android:textColor="@color/background"
+            android:background="@drawable/transparent_button"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="OR"
+            android:gravity="center"
+            android:textColor="@color/background"/>
+
+        <Button
+            android:id="@+id/btn_FB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="18dp"
+            android:paddingLeft="50dp"
+            android:drawableStart="@drawable/ic_welcome_fb_login"
+            android:text="@string/connect_with_facebook"
+            android:background="@drawable/transparent_button"
+            android:textColor="@color/background"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/doesn_t_have_account"
+                android:textColor="@color/background" />
+
+            <TextView
+                android:id="@+id/btn_regis"
+                android:onClick="OnClick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:text="@string/register"
+                android:textColor="@color/background"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
