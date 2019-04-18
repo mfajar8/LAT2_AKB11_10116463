@@ -21,7 +21,7 @@ public class AlmostThereActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_almost_there);
-        kever = (Button) findViewById(R.id.btn_send);
+        kever = (Button) findViewById(R.id.btn_verifyalmostthere);
         kever.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
